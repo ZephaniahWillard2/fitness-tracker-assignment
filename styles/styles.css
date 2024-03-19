@@ -4,5 +4,27 @@ body{
 
 .container {
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(232, 100, 39);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.workout-summery{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+
+.new-workout-sets {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.past-workout{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
