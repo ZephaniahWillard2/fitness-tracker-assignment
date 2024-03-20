@@ -9,15 +9,27 @@ let excerciseLogs = [
 
 //stretch goal here
 
-//Task 2
+//Task 2: trying to add 
 function calcTotalDuraton (excerciseLogs){
     let total = 0;
-    for (const item of excerciseLogs[duration]){
-        total += item;
+    for (const item of excerciseLogs){
+        total += item.duration;
     }
     return total;
 };
-calcTotalDuraton();
-function calcTotalSets (){
 
-}
+function calcTotalSets (excerciseLogs){
+    let total = 0;
+    for (const item of excerciseLogs){
+        total += item.setPer;
+    }
+    return total;
+};
+
+function calcTotalreps (excerciseLogs){
+    let total = 0;
+    for (const item of excerciseLogs){
+        total += item.repPer;
+    }
+    return total;
+};
