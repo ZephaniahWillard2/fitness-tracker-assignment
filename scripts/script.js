@@ -9,7 +9,8 @@ let excerciseLogs = [
 
 //stretch goal here
 
-//Task 2: trying to add 
+//Task 2: adding in functions to calculate total duration (in minutes), total sets, total reps.
+            //Not sure how to display yet.
 function calcTotalDuraton (excerciseLogs){
     let total = 0;
     for (const item of excerciseLogs){
@@ -33,3 +34,23 @@ function calcTotalreps (excerciseLogs){
     }
     return total;
 };
+
+//task 3: adding a class. 
+            //Not sure how to display yet.
+class Workout {
+    constructor(type, sets, reps, duration, intensity){
+        this.type = type;
+        this.sets = sets;
+        this.reps = reps;
+        this.duration = duration;
+        this.intensity = intensity
+    }
+
+    displaySummery(){
+        return `Exercise Type: ${type}
+        Number of Sets: ${sets}
+        Number of Reps: ${reps}
+        Total Durations: ${this.duration}
+        Degree of Intensity: ${this.intensity}`
+    };
+}
